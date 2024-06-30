@@ -86,19 +86,19 @@ A trie is a special type of tree used to store associative data structures. A co
 
 Sorting algorithms are used to rearrange elements in a list or array in a certain order (ascending or descending).
 
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
+- [Bubble Sort](#)
+- [Insertion Sort](#)
+- [Selection Sort](#)
+- [Merge Sort](#)
+- [Quick Sort](#)
+- [Heap Sort](#)
 
 ### Searching Algorithms
 
 Searching algorithms are designed to retrieve an element from any data structure where it is stored.
 
-- Linear Search
-- Binary Search
+- [Linear Search](#)
+- [Binary Search](#)
 
 ### Dynamic Programming
 
@@ -116,17 +116,17 @@ Backtracking is a general algorithm for finding all (or some) solutions to compu
 
 Graph algorithms are a set of instructions that traverse (visits nodes of) a graph.
 
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
-- Dijkstra's Algorithm
-- Bellman-Ford Algorithm
+- [Depth-First Search (DFS)](#)
+- [Breadth-First Search (BFS)](#)
+- [Dijkstra's Algorithm](#)
+- [Bellman-Ford Algorithm](#)
 
 ### String Algorithms
 
 String algorithms deal with problems involving string manipulation and searching within strings.
 
-- Knuth-Morris-Pratt (KMP) Algorithm
-- Rabin-Karp Algorithm
+- [Knuth-Morris-Pratt (KMP) Algorithm](#)
+- [Rabin-Karp Algorithm](#)
 
 ## Contributing
 
@@ -137,3 +137,64 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+## Problems and Implementations
+
+### List
+
+- [Accessing the List](List/Accessing%20the%20list.py)
+- [Average or Mean of a List](List/Average%20or%20Mean%20of%20a%20List.py)
+- [Check if a List is Sorted (Effective)](List/Check%20if%20a%20list%20is%20Sorted%20Effective.py)
+- [Check if a List is Sorted (Naive)](List/Check%20if%20a%20list%20is%20Sorted%20Naive.py)
+- [Insert and Search](List/Insert%20and%20search.py)
+- [Left Rotate a List by One (Effective)](List/Left%20Rotate%20a%20List%20by%20one%20Effective.py)
+- [Left Rotate a List by One (Slice, Append POP)](List/Left%20Rotate%20a%20List%20by%20one%20Slice,%20append%20POP.py)
+- [List Slicing](List/List%20slicing.py)
+- [Removal of Items](List/Removal%20of%20items.py)
+- [Separate Even and Odd](List/Separate%20Even%20and%20Odd.py)
+- [Some General-Purpose List Operations](List/Some%20general-purpose.py)
+- [Working with Lists, Tuples, and Strings](List/w%20list,%20tuple%20and%20string.py)
+
+### List - LeetCode Problems
+
+- [Left Rotate by d Places (Direct Method)](List/LeetCode%20Problems/Left%20Rotate%20by%20d%20Places%20Direct%20Method.py)
+- [Maximum Difference Between Increasing Elements (LeetCode)](List/LeetCode%20Problems/Maximum%20Difference%20Between%20Increasing%20Elements%20LeetCode.py)
+- [Maximum Difference (Efficient)](List/LeetCode%20Problems/Maximum%20difference%20Efficient.py)
+- [Maximum Difference (Naive)](List/LeetCode%20Problems/Maximum%20difference%20Naive.py)
+- [Right Rotate (LeetCode)](List/LeetCode%20Problems/Right%20Rotate%20LeetCode.py)
+
+### Mathematics
+
+- [Check for Prime (Efficient)](Mathematics/Check%20for%20Prime%20Efficient.py)
+- [Check for Prime (Naive)](Mathematics/Check%20for%20Prime%20Naive.py)
+- [Count Numbers](Mathematics/CountNumbers.py)
+- [Factorial](Mathematics/Factorial.py)
+- [GCD](Mathematics/GCD.py)
+- [GCD2](Mathematics/GCD2.py)
+- [LCM of Two Numbers (Efficient)](Mathematics/LCM%20of%20two%20Numbers%20Efficient.py)
+- [LCM of Two Numbers (Naive)](Mathematics/LCM%20Of%20two%20Numbers%20Naive.py)
+- [Palindrome](Mathematics/Palindrome.py)
+- [Prime Factorization](Mathematics/Prime%20Factorization.py)
+- [Sieve of Eratosthenes](Mathematics/Sieve%20of%20Eratosthenes.py)
+- [Square Root (Effective)](Mathematics/Square%20Root%20Effective.py)
+- [Square Root (Naive)](Mathematics/Square%20Root%20Naive.py)
+- [Sum of Natural Numbers](Mathematics/SumofNaturalNumbers.py)
+
+### Recursion
+
+- [Rope Cutting Problem](Recursion/Rope%20Cutting%20Problem.py)
+
+### Searching
+
+- [Binary Search](Searching/Binary%20Search%20in%20Python.py)
+- [Count 1's in a Sorted Binary List (Binary)](Searching/Count%201's%20in%20a%20Sorted%20Binary%20List%20Binary.py)
+- [Count 1's in a Sorted Binary List (Recursive)](Searching/Count%201's%20in%20a%20Sorted%20Binary%20List%20Recurssive.py)
+- [Count Occurrences in a Sorted Array (Effective)](Searching/Count%20Occurrences%20in%20a%20Sorted%20Array%20Effective.py)
+- [
+
+Count Occurrences in a Sorted Array](Searching/Count%20Occurrences%20in%20a%20Sorted%20Array.py)
+- [Index of First Occurrence in a Sorted Array (Efficient)](Searching/Index%20of%20First%20Occurrence%20in%20a%20Sorted%20Array%20Efficient.py)
+- [Index of First Occurrence in a Sorted Array (Naive)](Searching/Index%20of%20First%20Occurrence%20in%20a%20Sorted%20Array%20Naive.py)
+- [Index of Last Occurrence (Effective)](Searching/Index%20of%20Last%20Occurrence%20Effective.py)
+- [Index of Last Occurrence](Searching/Index%20of%20Last%20Occurrence.py)
+- [Recursive Binary Search](Searching/Recursive%20Binary%20Search%20in%20Python.py)
