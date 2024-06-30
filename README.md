@@ -6,7 +6,13 @@ Welcome to the Data Structures and Algorithms (DSA) repository. This repository 
 
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
-3. [Data Structures](#data-structures)
+3. [Python Basics](#python-basics)
+   - [if-else Statements](#if-else-statements)
+   - [for Loops](#for-loops)
+   - [while Loops](#while-loops)
+   - [break Statement](#break-statement)
+   - [continue Statement](#continue-statement)
+4. [Data Structures](#data-structures)
    - [Arrays](#arrays)
    - [Linked Lists](#linked-lists)
    - [Stacks](#stacks)
@@ -16,7 +22,7 @@ Welcome to the Data Structures and Algorithms (DSA) repository. This repository 
    - [Graphs](#graphs)
    - [Heaps](#heaps)
    - [Tries](#tries)
-4. [Algorithms](#algorithms)
+5. [Algorithms](#algorithms)
    - [Sorting Algorithms](#sorting-algorithms)
    - [Searching Algorithms](#searching-algorithms)
    - [Dynamic Programming](#dynamic-programming)
@@ -24,8 +30,8 @@ Welcome to the Data Structures and Algorithms (DSA) repository. This repository 
    - [Backtracking](#backtracking)
    - [Graph Algorithms](#graph-algorithms)
    - [String Algorithms](#string-algorithms)
-5. [Contributing](#contributing)
-6. [License](#license)
+6. [Contributing](#contributing)
+
 
 ## Introduction
 
@@ -41,6 +47,62 @@ cd dsa-python
 ```
 
 Ensure you have Python installed on your machine. You can download Python from [python.org](https://www.python.org/).
+
+## Python Basics
+
+### if-else Statements
+
+The `if` statement is used for conditional execution. The `else` clause can be used to execute a block of code if the condition is false.
+
+```python
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+```
+
+### for Loops
+
+The `for` loop is used to iterate over a sequence (such as a list, tuple, dictionary, set, or string).
+
+```python
+for i in range(5):
+    print(i)
+```
+
+### while Loops
+
+The `while` loop is used to execute a block of code as long as a condition is true.
+
+```python
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+### break Statement
+
+The `break` statement is used to exit the loop prematurely.
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+### continue Statement
+
+The `continue` statement is used to skip the rest of the code inside the loop for the current iteration only.
+
+```python
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+```
 
 ## Data Structures
 
@@ -171,7 +233,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Factorial](Mathematics/Factorial.py)
 - [GCD](Mathematics/GCD.py)
 - [GCD2](Mathematics/GCD2.py)
-- [LCM of Two Numbers (Efficient)](Mathematics/LCM%20of%20two%20Numbers%20Efficient.py)
+-
+
+ [LCM of Two Numbers (Efficient)](Mathematics/LCM%20of%20two%20Numbers%20Efficient.py)
 - [LCM of Two Numbers (Naive)](Mathematics/LCM%20Of%20two%20Numbers%20Naive.py)
 - [Palindrome](Mathematics/Palindrome.py)
 - [Prime Factorization](Mathematics/Prime%20Factorization.py)
@@ -190,11 +254,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Count 1's in a Sorted Binary List (Binary)](Searching/Count%201's%20in%20a%20Sorted%20Binary%20List%20Binary.py)
 - [Count 1's in a Sorted Binary List (Recursive)](Searching/Count%201's%20in%20a%20Sorted%20Binary%20List%20Recurssive.py)
 - [Count Occurrences in a Sorted Array (Effective)](Searching/Count%20Occurrences%20in%20a%20Sorted%20Array%20Effective.py)
-- [
-
-Count Occurrences in a Sorted Array](Searching/Count%20Occurrences%20in%20a%20Sorted%20Array.py)
+- [Count Occurrences in a Sorted Array](Searching/Count%20Occurrences%20in%20a%20Sorted%20Array.py)
 - [Index of First Occurrence in a Sorted Array (Efficient)](Searching/Index%20of%20First%20Occurrence%20in%20a%20Sorted%20Array%20Efficient.py)
 - [Index of First Occurrence in a Sorted Array (Naive)](Searching/Index%20of%20First%20Occurrence%20in%20a%20Sorted%20Array%20Naive.py)
 - [Index of Last Occurrence (Effective)](Searching/Index%20of%20Last%20Occurrence%20Effective.py)
 - [Index of Last Occurrence](Searching/Index%20of%20Last%20Occurrence.py)
 - [Recursive Binary Search](Searching/Recursive%20Binary%20Search%20in%20Python.py)
+
+---
+
+Feel free to explore the topics and implementations. If you find any issues or have suggestions, please contribute to the project.
